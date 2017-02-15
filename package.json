@@ -1,0 +1,23 @@
+{
+  "name": "middle-patch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me@davengeo.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "config": "^1.25.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "http-proxy": "^1.16.2",
+    "http-proxy-rules": "^1.1.0",
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.1",
+    "request": "^2.79.0",
+    "winston": "^2.3.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "proxy": {
+    "routing": {
+      ".*/sgw/db-sandbox/_bulk_get": "http://localhost:3000/db/bulk_get",
+      ".*/sgw": "http://localhost:4984/"
+    },
+    "default": "http://localhost:3000",
+    "port": 4010
+  },
+  "express": {
+    "route": "/db/bulk_get",
+    "port": 3000,
+    "public": [
+      "/tmp/dev/pouch-experiment/dist"
+    ]
+  },
+  "sync-gw-db": {
+    "syncGwAdmin": "http://localhost:4985",
+    "db": "db-sandbox"
+  }
+}
